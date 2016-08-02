@@ -34,33 +34,39 @@
             <TextView
                 style="@style/ApplicationList.ProjectButton"
                 android:id="@+id/projectPopularMovies"
-                android:text="@string/application_listing_project_popular_movies"/>
+                android:text="@string/application_listing_project_popular_movies"
+                android:onClick="projectClicked"/>
 
             <TextView
                 style="@style/ApplicationList.ProjectButton"
                 android:id="@+id/projectStockHawk"
-                android:text="@string/application_listing_project_stock_hawk"/>
+                android:text="@string/application_listing_project_stock_hawk"
+                android:onClick="projectClicked"/>
 
             <TextView
                 style="@style/ApplicationList.ProjectButton"
                 android:id="@+id/projectBuildItBigger"
-                android:text="@string/application_listing_project_build_it_bigger"/>
+                android:text="@string/application_listing_project_build_it_bigger"
+                android:onClick="projectClicked"/>
 
             <TextView
                 style="@style/ApplicationList.ProjectButton"
                 android:id="@+id/projectMaterial"
-                android:text="@string/application_listing_project_make_your_app_material"/>
+                android:text="@string/application_listing_project_make_your_app_material"
+                android:onClick="projectClicked"/>
 
             <TextView
                 style="@style/ApplicationList.ProjectButton"
                 android:id="@+id/projectGoUbiquitous"
-                android:text="@string/application_listing_project_go_ubiquitous"/>
+                android:text="@string/application_listing_project_go_ubiquitous"
+                android:onClick="projectClicked"/>
 
             <TextView
                 style="@style/ApplicationList.ProjectButton"
                 android:id="@+id/projectCapstone"
-                android:text="@string/application_listing_project_capstone"/>
-            
+                android:text="@string/application_listing_project_capstone"
+                android:onClick="projectClicked"/>
+
         </LinearLayout>
     </ScrollView>
 
