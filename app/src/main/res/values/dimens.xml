@@ -2,4 +2,11 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Application Listings-->
+    <dimen name="margin_listing_ll">20dp</dimen>
+    <dimen name="margin_listing_button_top">5dp</dimen>
+    <dimen name="padding_listing_button">12dp</dimen>
+
+
 </resources>
