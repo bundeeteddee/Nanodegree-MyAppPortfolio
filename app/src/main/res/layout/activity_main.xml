@@ -20,77 +20,83 @@
         android:text="@string/application_listing_title"/>
 
     <!-- App Project Listings -->
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/title"
-        android:orientation="vertical"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp">
+        android:layout_below="@+id/title">
 
-        <TextView
-            style="@style/ApplicationList.ProjectButton"
-            android:id="@+id/projectPopularMovies"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:padding="12dp"
-            android:text="@string/application_listing_project_popular_movies"
-            android:layout_marginTop="5dp"/>
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
 
-        <TextView
-            style="@style/ApplicationList.ProjectButton"
-            android:id="@+id/projectStockHawk"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:padding="12dp"
-            android:text="@string/application_listing_project_stock_hawk"
-            android:layout_marginTop="5dp"/>
+            <TextView
+                style="@style/ApplicationList.ProjectButton"
+                android:id="@+id/projectPopularMovies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:padding="12dp"
+                android:text="@string/application_listing_project_popular_movies"
+                android:layout_marginTop="5dp"/>
 
-        <TextView
-            style="@style/ApplicationList.ProjectButton"
-            android:id="@+id/projectBuildItBigger"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:padding="12dp"
-            android:text="@string/application_listing_project_build_it_bigger"
-            android:layout_marginTop="5dp"/>
+            <TextView
+                style="@style/ApplicationList.ProjectButton"
+                android:id="@+id/projectStockHawk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:padding="12dp"
+                android:text="@string/application_listing_project_stock_hawk"
+                android:layout_marginTop="5dp"/>
 
-        <TextView
-            style="@style/ApplicationList.ProjectButton"
-            android:id="@+id/projectMaterial"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:padding="12dp"
-            android:text="@string/application_listing_project_make_your_app_material"
-            android:layout_marginTop="5dp"/>
+            <TextView
+                style="@style/ApplicationList.ProjectButton"
+                android:id="@+id/projectBuildItBigger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:padding="12dp"
+                android:text="@string/application_listing_project_build_it_bigger"
+                android:layout_marginTop="5dp"/>
 
-        <TextView
-            style="@style/ApplicationList.ProjectButton"
-            android:id="@+id/projectGoUbiquitous"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:padding="12dp"
-            android:text="@string/application_listing_project_go_ubiquitous"
-            android:layout_marginTop="5dp"/>
+            <TextView
+                style="@style/ApplicationList.ProjectButton"
+                android:id="@+id/projectMaterial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:padding="12dp"
+                android:text="@string/application_listing_project_make_your_app_material"
+                android:layout_marginTop="5dp"/>
 
-        <TextView
-            style="@style/ApplicationList.ProjectButton"
-            android:id="@+id/projectCapstone"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:padding="12dp"
-            android:text="@string/application_listing_project_capstone"
-            android:layout_marginTop="5dp"/>
+            <TextView
+                style="@style/ApplicationList.ProjectButton"
+                android:id="@+id/projectGoUbiquitous"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:padding="12dp"
+                android:text="@string/application_listing_project_go_ubiquitous"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                style="@style/ApplicationList.ProjectButton"
+                android:id="@+id/projectCapstone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:padding="12dp"
+                android:text="@string/application_listing_project_capstone"
+                android:layout_marginTop="5dp"/>
 
 
-    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
 
 </RelativeLayout>
